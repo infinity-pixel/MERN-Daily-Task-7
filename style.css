@@ -1,0 +1,239 @@
+body{
+    max-width: 1440px;
+    height: 100vh;
+    margin: 8px auto;
+    /* padding: 0; */
+    color: #fff;
+    letter-spacing: 3px;
+    background-color: #000000;
+
+    /* display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center; */
+}
+
+/* ================ Header Section Start ================*/
+.header-area{
+    width: 95%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    background-image: url(HeaderBackground.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 16px;
+}
+.header{
+    width: 95%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+}
+
+/*==== Header Navigation Start ====*/
+.header__navigation{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.header__navigation__logo{
+    width: fit-content;
+    display: flex;
+    flex-grow: 0.3;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header__navigation__menu{
+    height: fit-content;
+    display: flex;
+    flex-grow: 0.7;
+    justify-content: flex-end;
+}
+.header__navigation__menu--background{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 15px 16px 15px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #FF001D;
+}
+.header__navigation__menu--background:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+.header__navigation__navbar{
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    /* justify-content: flex-end; */
+}
+.header__navigation__navbar>ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    gap: 4rem;
+}
+.header__navigation__navbar>ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: wheat;
+}
+/*==== Header Navigation End ====*/
+
+
+/*==== Header Hero Start ====*/
+.header__hero{
+    width: 95%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.header__hero__heading{
+    font-size: 45px;
+}
+.header__hero__buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.header__hero__buttons-1{
+    border: 2px solid white;
+    padding: 20px 58px;
+    background-color: #FF001D;
+    border-radius: 16px;
+    font-size: 20px;
+}
+.header__hero__buttons-1:hover{
+    background-color: tomato;
+    border: 2px solid wheat;
+    cursor: pointer;
+    color: wheat;
+}
+.header__hero__buttons-2{
+    border: 2px solid grey;
+    padding: 20px 58px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+.header__hero__buttons-2:hover{
+    background-color: rgba(255, 255, 255, 0.121);
+    cursor: pointer;
+}
+/*==== Header Hero End ====*/
+
+/* ================ Header Section End ================*/
+
+
+/* ================ Card Section Start ================*/
+.cards-area{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+.cards div{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.cards div:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+/* ================ Card Section End ================*/
+
+/* ================ Footer Section Start ================*/
+.footer-area{
+    /* width: 95%; */
+    height: 500px;
+    background-color: #FF001D;
+    border-radius: 32px;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.footer{
+    height: 95%;
+    width: 95%;
+    display: flex;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.footer__left__text h1{
+    font-size: 56px;
+    margin: 0px;
+}
+.footer__left__text p{
+    font-size: 24px;
+}
+.footer__right{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.footer__right-advantages{
+    /* height: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__right-advantages img{
+    height: fit-content;
+    display: flex;
+}
+.footer__left__buttons{
+    display: flex;
+    gap: 2.5rem;
+}
+.footer__left__buttons-1{
+    /* border: 1px solid white; */
+    padding: 20px 58px;
+    background-color: #fff;
+    border-radius: 16px;
+    font-size: 20px;
+    color: black;
+}
+.footer__left__buttons-1:hover{
+    background-color: rgb(225, 123, 123);
+    cursor: pointer;
+}
+.footer__left__buttons-2{
+    border: 2px solid white;
+    padding: 20px 58px;
+    background-color: rgb(200, 43, 43);
+    /* color: white; */
+    border-radius: 16px;
+    font-size: 20px;
+}
+.footer__left__buttons-2:hover{
+    background-color: rgb(193, 26, 26);
+    border: 2px solid wheat;
+    color: wheat;
+    cursor: pointer;
+}
+
+/* ================ Footer Section End ================*/
